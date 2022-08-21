@@ -26,10 +26,15 @@
 
         <Button
             android:id="@+id/deleteByRollnoBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:textSize="20sp"
+            android:backgroundTint="#3D97DC"
+            app:cornerRadius="?attr/listPreferredItemHeight"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
             android:layout_marginTop="216dp"
-            android:text="delete"
+            android:text="Delete"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
